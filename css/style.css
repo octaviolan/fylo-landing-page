@@ -16,4 +16,9 @@ body {
   background: var(--lightGrayishBlue);
   font-family: 'Open Sans', sans-serif;;
   color: var(--veryDarkBlue);
+  margin: 0;
+}
+
+.wrapper {
+  padding-inline: 24px;
 }

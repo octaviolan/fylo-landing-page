@@ -1,0 +1,45 @@
+.header {
+  margin-block-start: 24px;
+  margin-block-end: 98px;
+  /* border: 1px solid red; */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* border: 1px solid red; */
+  inline-size: 81px;
+  block-size: 24px;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.menu ul{
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li:nth-child(even) {
+  margin-inline: 25px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: var(--veryDarkBlue);
+  line-height: 14px;
+}
