@@ -1,0 +1,66 @@
+.hero {
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.hero-image {
+  inline-size: 304px;
+  block-size: 225px;
+  background-image: url(../images/illustration-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid blue; */
+  margin: auto
+}
+
+.hero h1 {
+  margin-block-start: 40px;
+  margin-block-end: 24;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  /* border: 1px solid yellow; */
+}
+
+.hero p {
+  margin-block-end: 32px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.hero form {
+  font-size: 0;
+}
+
+.hero input {
+  display: block;
+  inline-size: 304px;
+  block-size: 40px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-inline: 21px;
+  padding-block: 12px;
+  border-radius: 3.13px;
+  font-family: 'Raleway';
+}
+
+.hero input[type="email"] {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.37px;
+  color: var(--lightGray);
+  border: 0.625px solid #07043B;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+}
+
+.hero input[type="submit"] {
+  margin-block-start: 16px;
+  background: var(--brightBlue);
+  border: 1px solid var(--brightBlue);
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);;
+}
+
