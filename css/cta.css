@@ -1,0 +1,51 @@
+.cta {
+  background: var(--desaturatedBlue);
+  padding-block-start: 54px;
+  padding-block-end: 71px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cta h2 {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.cta p {
+  margin-block-end: 16px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.cta input {
+  display: block;
+  margin-inline: auto;
+  padding: 11px 8px 9px 8px;
+  box-sizing: border-box;
+  inline-size: 240px;
+  block-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  border-radius: 1.5px;
+}
+
+.cta input[type="email"] {
+  margin-block-end: 8px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  line-height: 12px;
+  color: var(--lightGray);
+}
+
+.cta input[type="submit"] {
+  border: none;
+  line-height: 11px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: var(--brightBlue);
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+}
