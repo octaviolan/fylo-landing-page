@@ -43,3 +43,24 @@
   color: var(--veryDarkBlue);
   line-height: 14px;
 }
+
+@media only screen and (min-width: 1025px) {
+  .header {
+    margin-block-start: 65px;
+    margin-block-end: 86px;
+  }
+
+  .logo {
+    inline-size: 166px;
+    block-size: 49px;
+  }
+
+  .menu ul li a {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .menu ul li:nth-child(even) {
+    margin-inline: 57px;
+  }
+}

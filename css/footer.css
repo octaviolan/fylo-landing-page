@@ -51,6 +51,10 @@
   margin-inline-end: 16px;
 }
 
+.footer .about {
+  margin-block-end: 32px;
+}
+
 .social {
   /* border: 1px solid red; */
   text-align: center;

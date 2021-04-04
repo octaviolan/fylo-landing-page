@@ -32,3 +32,12 @@ body {
   display: block;
   inline-size: 100%;
 }
+
+@media only screen and (min-width: 1025px) {
+  .wrapper {
+    border: 1px solid red;
+    padding-inline: 0;
+    margin-inline: auto;
+    max-inline-size: 1280px;
+  }
+}
