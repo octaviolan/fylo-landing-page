@@ -1,5 +1,6 @@
 @import './header.css';
 @import './hero.css';
+@import './productive.css';
 
 :root {
   /* ### Primary */
@@ -16,10 +17,14 @@
 body {
   background: var(--lightGrayishBlue);
   font-family: 'Open Sans', sans-serif;;
-  color: var(--veryDarkBlue);
   margin: 0;
+  background: white;
 }
 
 .wrapper {
   padding-inline: 24px;
+}
+
+img {
+  display: block;
 }
