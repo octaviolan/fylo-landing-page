@@ -70,6 +70,10 @@
   box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
 }
 
+.productive-testimonial .quote {
+  display: block;
+}
+
 .productive-testimonial p {
   font-size: 10px;
   line-height: 18px;
@@ -104,4 +108,88 @@
 
 .productive-testimonial .avatar-ceo {
   font-size: 6px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .productive {
+    padding-block-start: 0;
+    padding-block-end: 107px;
+  }
+
+  .productive-content {
+    display: flex;
+    gap: 80px;
+  }
+
+  .stay-productive {
+    /* border: 1px solid blue; */
+    text-align: start;
+  }
+
+  .stay-productive h2 {
+    margin-block-start: 0;
+    margin-block-end: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+  }
+
+  .stay-productive .productive-paragraph {
+    display: block;
+    inline-size: 530px;
+    margin-block-end: 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .productive-fylo-link {
+    margin-inline: 0;
+    margin-block-start: 0;
+    inline-size: 166px;
+  }
+
+  .productive-fylo-link p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .image-productive {
+    /* border: 1px solid red; */
+    order: 2;
+    inline-size: 542px;
+    block-size: 409px;
+    flex-shrink: 0;
+  }
+
+  .productive-testimonial {
+    margin: 0;
+    inline-size: 356px;
+    block-size: 215px;
+    padding-inline: 35px;
+    padding-block: 26px;
+  }
+
+  .productive-testimonial p{
+    font-size: 13px;
+    line-height: 23px;
+    margin-block: 16px;
+  }
+
+  .productive-testimonial .avatar img {
+    inline-size: 32px;
+    block-size: 32px;
+  }
+
+  .productive-testimonial .avatar-name {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.55px;
+  }
+
+  .productive-testimonial .avatar-ceo {
+    font-size: 8px;
+    line-height: 15px;
+    letter-spacing: 0.36px;
+  }
 }
