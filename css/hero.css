@@ -65,3 +65,58 @@
   box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);;
 }
 
+@media only screen and (min-width: 1025px) {
+  .hero-content {
+    display: flex;
+    align-content: center;
+    gap: 40px;
+  }
+
+  .hero-image {
+    /* border: 1px solid blue; */
+    order: 2;
+    inline-size: 640px;
+    block-size: 474px;
+    flex-shrink: 0;
+  }
+
+  .hero-fylo {
+    /* border: 1px solid red; */
+    align-self: center;
+  }
+
+  .hero-fylo h1 {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: start;
+  }
+
+  .hero-fylo p {
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53px;
+    text-align: start;
+  }
+
+  .hero form {
+    display: flex;
+    align-content: center;
+    gap: 16px
+  }
+
+  .hero input {
+    margin: 0;
+  }
+
+  .hero input[type="email"] {
+  inline-size: 320px;
+  }
+
+  .hero input[type="submit"] {
+    inline-size: 200px;
+    margin-block-start: 0;
+  }
+}
