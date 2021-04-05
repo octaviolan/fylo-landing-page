@@ -49,3 +49,57 @@
   background: var(--brightBlue);
   box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
 }
+
+@media only screen and (min-width: 1025px) {
+ .cta {
+  padding-block-start: 100px;
+  padding-block-end: 85px;
+ }
+
+ .cta-content {
+   display: flex;
+   gap: 227px;
+ }
+
+ .cta-access {
+   border: 1px solid blue;
+  inline-size: 533px;
+  text-align: start;
+ }
+
+ .cta-access h2 {
+  font-size: 32px;
+  line-height: 48px;
+ }
+
+ .cta-access p {
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.5px;
+   margin: 0;
+ }
+
+ .cta form {
+   /* flex-shrink: 0; */
+   border: 1px solid red;
+   align-self: center;
+ }
+
+ .cta input[type="email"] {
+  inline-size: 480px;
+  block-size: 48px;
+  margin-block-end: 16px;
+  padding: 16px 22px;
+  font-size: 12px;
+  line-height: 14px
+}
+
+.cta input[type="submit"] {
+  inline-size: 280px;
+  block-size: 48px;
+  margin-inline: 0;
+  padding: 16px 22px;
+  font-size: 14px;
+  line-height: 16.5px;
+}
+}
