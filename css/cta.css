@@ -62,7 +62,6 @@
  }
 
  .cta-access {
-   border: 1px solid blue;
   inline-size: 533px;
   text-align: start;
  }
@@ -80,8 +79,6 @@
  }
 
  .cta form {
-   /* flex-shrink: 0; */
-   border: 1px solid red;
    align-self: center;
  }
 
