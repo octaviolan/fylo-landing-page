@@ -95,7 +95,7 @@
   }
 
  .logo-footer {
-   border: 1px solid red;
+   /* border: 1px solid red; */
   inline-size: 135px;
   block-size: 39px;
   background-repeat: no-repeat;
